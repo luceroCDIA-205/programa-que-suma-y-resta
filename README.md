@@ -22,3 +22,19 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # Programa que multiplica y divide dos números
+
+# Pedir al usuario los dos números
+a = float(input("Introduce el primer número: "))
+b = float(input("Introduce el segundo número: "))
+
+# Multiplicación
+multiplicacion = a * b
+print(f"{a} x {b} = {multiplicacion}")
+
+# División
+if b != 0:
+    division = a / b
+    print(f"{a} / {b} = {division}")
+else:
+    print("No se puede dividir entre cero.")
